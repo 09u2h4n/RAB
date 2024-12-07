@@ -35,7 +35,7 @@
       # Runs when the workspace is (re)started
       onStart = {
         # Create and activate a Python virtual environment
-        venv_and_source = "python3 -m venv .venv; source /home/user/RAB.venv/bin/activate"; 
+        venv_and_source = "python3 -m venv .venv; source .venv/bin/activate";
 
         # install_ms-python_extension = "wget https://open-vsx.org/api/ms-python/python/2024.12.3/file/ms-python.python-2024.12.3.vsix; code --force --install-extension *.vsix; rm *.vsix";
       };
