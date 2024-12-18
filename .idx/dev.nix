@@ -7,6 +7,7 @@
     pkgs.python311
     pkgs.python311Packages.pip
     pkgs.black
+    #pkgs.adoptopenjdk-jre-openj9-bin-11
   ];
 
   # Sets environment variables in the workspace
