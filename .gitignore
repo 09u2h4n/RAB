@@ -5,6 +5,7 @@ __pycache__/
 
 # Caches
 cache_directory
+rev-doc
 
 # C extensions
 *.so
